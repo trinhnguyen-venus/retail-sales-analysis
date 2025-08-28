@@ -10,7 +10,7 @@ Retail sales exploration using SQL
 
 \## Project contents
 
-\- `data/` — original CSV (small sample) or instructions to import the full CSV.
+\- `data/` — original CSV.
 
 \- `sql/` — main script: `SQLProjectP1.sql` (table creation, import, cleaning, exploratory queries).
 
