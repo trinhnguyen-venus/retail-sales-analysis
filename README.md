@@ -10,9 +10,9 @@
 
 ## Project contents
 
-- `data/` — original CSV.
+- `data` — original CSV.
 
-- `sql/` — main script: `SQLProjectP1.sql` (table creation, import, cleaning, exploratory queries).
+- `sql` — main script: `SQLProjectP1.sql` (table creation, import, cleaning, exploratory queries).
 
 - `README.md` — this file.
 
