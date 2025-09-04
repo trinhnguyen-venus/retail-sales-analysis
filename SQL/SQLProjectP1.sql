@@ -20,7 +20,7 @@ CREATE TABLE retail_sales (
 
 -- ===== IMPORT DATA =====
 
--- Basic validation: find rows with NULL in required columns =====
+-- Basic validation: find rows with NULL in required columns
 SELECT *
 FROM retail_sales
 WHERE transactions_id IS NULL
@@ -31,7 +31,7 @@ WHERE transactions_id IS NULL
     OR cogs IS NULL
     OR total_sale IS NULL;
 
--- Optional: remove rows with nulls in required columns (use transaction when needed)
+-- Remove rows with nulls in required columns
 DELETE FROM retail_sales
 WHERE transactions_id IS NULL
     OR sale_date IS NULL
