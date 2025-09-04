@@ -14,8 +14,6 @@
 
 - `sql/` — main script: `SQLProjectP1.sql` (table creation, import, cleaning, exploratory queries).
 
-- `results/` — example output files (CSV) exported from queries.
-
 - `README.md` — this file.
 
 
